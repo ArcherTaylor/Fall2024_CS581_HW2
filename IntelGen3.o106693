@@ -1,0 +1,33 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: myscript.sh
+  The time limit is 60:00:00 HH:MM:SS.
+  The target directory is: /home/ualclsd0200/Fall2024_CS581_HW2
+  The working directory is:  /scratch-local/ualclsd0200.3rdgen.106693.asax-pbs1
+  The memory limit is: 1gb
+  The job will start running after: 202409191208.07
+  Job Name: 3rdgen
+  Queue: -q small
+  Constraints: 
+  Using  1  cores on master node  asaxg005.asc.edu
+  Node list:  asaxg005.asc.edu
+  Cores:  1
+  Command typed:
+/scripts/run_script myscript.sh     
+  Queue submit command:
+qsub -q small -j oe -N 3rdgen -a 202409191208.07 -r n -M wataylor1@crimson.ua.edu -l walltime=60:00:00 -l select=ncpus=1:mem=1000mb 
+Time taken for 1000 generations on a size 1000 by 1000 board: 10.8633 seconds
+Total memory usage by board array: 2008008 bytes
+Time taken for 5000 generations on a size 1000 by 1000 board: 52.9136 seconds
+Total memory usage by board array: 2008008 bytes
+Time taken for 1000 generations on a size 5000 by 5000 board: 275.595 seconds
+Total memory usage by board array: 50040008 bytes
+Time taken for 5000 generations on a size 5000 by 5000 board: 1322.02 seconds
+Total memory usage by board array: 50040008 bytes
+Time taken for 1000 generations on a size 10000 by 10000 board: 1104.41 seconds
+Total memory usage by board array: 200080008 bytes
+Time taken for 5000 generations on a size 10000 by 10000 board: 5332.98 seconds
+Total memory usage by board array: 200080008 bytes

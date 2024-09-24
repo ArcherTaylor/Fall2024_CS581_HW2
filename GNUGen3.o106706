@@ -1,0 +1,33 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: mygnuscript.sh
+  The time limit is 60:00:00 HH:MM:SS.
+  The target directory is: /home/ualclsd0200/Fall2024_CS581_HW2
+  The working directory is:  /scratch-local/ualclsd0200.GNUGen3.106706.asax-pbs1
+  The memory limit is: 1gb
+  The job will start running after: 202409191215.58
+  Job Name: GNUGen3
+  Queue: -q small
+  Constraints: 
+  Using  1  cores on master node  asax003.asc.edu
+  Node list:  asax003.asc.edu
+  Cores:  1
+  Command typed:
+/scripts/run_script mygnuscript.sh     
+  Queue submit command:
+qsub -q small -j oe -N GNUGen3 -a 202409191215.58 -r n -M wataylor1@crimson.ua.edu -l walltime=60:00:00 -l select=ncpus=1:mem=1000mb 
+Time taken for 1000 generations on a size 1000 by 1000 board: 15.357 seconds
+Total memory usage by board array: 2008008 bytes
+Time taken for 5000 generations on a size 1000 by 1000 board: 74.6606 seconds
+Total memory usage by board array: 2008008 bytes
+Time taken for 1000 generations on a size 5000 by 5000 board: 386.011 seconds
+Total memory usage by board array: 50040008 bytes
+Time taken for 5000 generations on a size 5000 by 5000 board: 1987.92 seconds
+Total memory usage by board array: 50040008 bytes
+Time taken for 1000 generations on a size 10000 by 10000 board: 1691.55 seconds
+Total memory usage by board array: 200080008 bytes
+Time taken for 5000 generations on a size 10000 by 10000 board: 8012.92 seconds
+Total memory usage by board array: 200080008 bytes

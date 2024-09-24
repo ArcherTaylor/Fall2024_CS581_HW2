@@ -1,0 +1,33 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: myscript.sh
+  The time limit is 60:00:00 HH:MM:SS.
+  The target directory is: /home/ualclsd0200/Fall2024_CS581_HW2
+  The working directory is:  /scratch-local/ualclsd0200.myscriptshSCRIPT.106690.asax-pbs1
+  The memory limit is: 1gb
+  The job will start running after: 202409191206.23
+  Job Name: myscriptshSCRIPT
+  Queue: -q small
+  Constraints: 
+  Using  1  cores on master node  asaxg005.asc.edu
+  Node list:  asaxg005.asc.edu
+  Cores:  1
+  Command typed:
+/scripts/run_script myscript.sh     
+  Queue submit command:
+qsub -q small -j oe -N myscriptshSCRIPT -a 202409191206.23 -r n -M wataylor1@crimson.ua.edu -l walltime=60:00:00 -l select=ncpus=1:mem=1000mb 
+Time taken for 1000 generations on a size 1000 by 1000 board: 10.7147 seconds
+Total memory usage by board array: 2008008 bytes
+Time taken for 5000 generations on a size 1000 by 1000 board: 51.7837 seconds
+Total memory usage by board array: 2008008 bytes
+Time taken for 1000 generations on a size 5000 by 5000 board: 272.351 seconds
+Total memory usage by board array: 50040008 bytes
+Time taken for 5000 generations on a size 5000 by 5000 board: 1311.58 seconds
+Total memory usage by board array: 50040008 bytes
+Time taken for 1000 generations on a size 10000 by 10000 board: 1095.11 seconds
+Total memory usage by board array: 200080008 bytes
+Time taken for 5000 generations on a size 10000 by 10000 board: 5275.62 seconds
+Total memory usage by board array: 200080008 bytes
